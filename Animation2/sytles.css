@@ -1,0 +1,22 @@
+.Loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-bottom:4px dotted rgb(224, 185, 185);
+    border-top:4px dotted black;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(360deg);
+    animation: spinAnimation 2s ease-in 0s infinite normal;
+}
+
+@keyframes spinAnimation{ 
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
